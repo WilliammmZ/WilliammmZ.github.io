@@ -1,0 +1,117 @@
+# Site settings
+title: WilliammmmZ Blog
+SEOTitle: 搬砖工的博客 | WilliammmmZ Blog
+header-img: img/home-bg.jpg
+email: code.zxinjian@gmail.com
+description: "这里是老张的小博客"
+keyword: "旅行 和 代码"
+url: "https://williammmz.github.io/"               # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: false
+weibo_username:     /u/1006198381
+zhihu_username:     xinjian-zhang
+github_username:    WilliammmZ
+mail_address:       code.zxinjian@gmail.com
+#twitter_username:  william joy
+facebook_username:  William Joy
+# linkedin_username:  firstname-lastname-idxxxx
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 8
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+timezone: CN  
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+# Disqus settings
+disqus_username: NullPointerz
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'G-E71CV6XHNE'            # Format: G-xxxxx
+
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "一只走在路上的程序猿......<br>"
+sidebar-avatar: /img/avatar-zxj.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+friends: [
+    #{
+    #     title: "Su",
+    #     href: "http://su.gallery/"
+    # },
+    {
+        title: "MKimiSH",
+        href: "https://mkimish.github.io/"
+    },{
+      title: "leftthomas",
+      href: "http://leftthomas.com/"
+    },{
+      title: "xuyi",
+      href: "https://xyiyy.github.io/"
+    }
+]
