@@ -149,7 +149,7 @@ span.highlight {
 
 <tr>
     <td style="padding:5px;width:30%;vertical-align:middle">
-        <img src='/img/about/img/Wang2021VideoAnomaly.png' width="250">
+        <img src='/img/about/img/wang2021videoanomaly.png' width="250">
     </td>
     <td width="75%" valign="middle">
     <p>
